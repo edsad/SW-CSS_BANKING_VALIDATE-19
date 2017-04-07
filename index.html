@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SW-CSS_BANKING_VALIDATE</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="validation.css">
+  </head>
+  <body>
+    <header>
+      <h1>Banking Form</h1>
+    </header>
+      <div class="wrapper">
+        <form action="/action_page.php">
+          <em><strong>Applicant Name:</strong></em><br>
+            <input type="text" name="firstname" value="First"><br>
+
+            <input type="text" name="middle_initial" value="Middle Initial"><br>
+
+            <input type="text" name="lastname" value="Last"><br><br>
+
+          <strong><em>Applicant Address:</em></strong><br>
+            <input type="text" name="address" value=""><br>
+
+          Occupation:<br>
+            <input type="text" name="occupation" value=""><br>
+
+          Employer:<br>
+            <input type="text" name="employer" value=""><br>
+
+          Employer Address:<br>
+            <input type="text" name="employer address" value=""><br><br>
+
+          <strong><em>Requested Loan Amount:</em></strong><br>
+            <input type="text" name="loanAmount" value=""><br><br>
+
+          <strong><em>Type of Loan Requested</em></strong><br>
+            <select name="Type of Loan">
+              <option value="commercial">Commercial</option>
+              <option value="real estate">Real Estate</option>
+              <option value="personal">Personal</option>
+              <option value="mortage">Mortage</option>
+            </select><br><br>
+        </form>
+
+          <strong><em>Requested Loan Amount</em></strong>(choose one)<br>
+
+        <form action="">
+          <input type="radio" name="years" value="five">5 Years<br>
+          <input type="radio" name="years" value="fifteen">15 Years<br>
+          <input type="radio" name="years" value="thirty">30 Years
+        </form><br>
+
+        <strong><em>check all that apply</em></strong><br>
+        <form action="/action_page.php">
+          <div class="center">
+            <input type="checkbox" name="payment" value="yes">I have a down payment<br>
+            <input type="checkbox" name="payment" value="married">Married<br>
+            <input type="checkbox" name="payment" value="co-sign">Loan will be co-signed
+            <br><br>
+          </div>
+        </form>
+
+      <textarea rows="4" cols="50" name="comment">
+        Any additional information here...</textarea><br>
+
+
+        e-mail:<br>
+          <input class="wow" type="email" id="emailRequired" name="emailRequired" required /><br>
+        telephone number:<br>
+          <input class="wow" type="number" id="telephoneRequired" name="telephoneRequired" required=""><br>
+        LinkedIn URL:<br>
+          <input class="wow" type="URL" id="URLRequired" name="URLRequired" required="">
+      </div>
+  </body>
+</html>

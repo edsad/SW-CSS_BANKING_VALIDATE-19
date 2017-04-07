@@ -1,0 +1,24 @@
+
+h1 {
+  text-align: center;
+}
+
+div.center {
+  width: 50%;
+  text-align: left;
+  margin-left: 45%;
+}
+
+input:invalid.wow {
+  background: #dc143c;
+}
+
+input:valid.wow {
+  background: #00ff00;
+}
+
+div.wrapper {
+  text-align: center;
+  font-size: 1.25em;
+}
+
